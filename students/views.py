@@ -58,3 +58,7 @@ def groups_edit(request, gid):
 	return HttpResponse('<h1>Edit Group %s</h1>' % gid)
 def groups_delete(request, gid):
 	return HttpResponse('<h1>Delete Group %s</h1>' % gid)
+
+
+def journal(request):
+	return HttpResponse('<h1>This is JOURNAL!</h1>')
